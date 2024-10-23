@@ -1,3 +1,5 @@
 ---
 - name: Vyos and proxmox configuration
-  hosts
+  hosts: all
+  roles:
+    - { role: roles/prox-create-nw, become: yes }

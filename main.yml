@@ -1,0 +1,3 @@
+---
+- name: Vyos and proxmox configuration
+  hosts
